@@ -1,8 +1,14 @@
 aid: albertinvent
 name: Albertinvent
-description: 'Albertinvent is a company surfaced as a portfolio company of homebrew and added to the API
-  Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Albert Invent builds Albert OS, an AI operating system for chemists and R&D
+  teams that unifies electronic lab notebooks, structured molecular-level experimental data,
+  chemical drawing, and safety/compliance data (safety data sheets for roughly 400,000
+  substances) with chemistry-trained AI models built on a foundation of 15 million molecular
+  structures. The platform helps materials, formulation, and specialty-chemical teams
+  capture proprietary experimental data and accelerate discovery, training custom predictive
+  models on each customer''s own chemistry. Albert Invent is a scientific R&D / developer-tools
+  SaaS company backed by Homebrew; its APIs and developer surface are not publicly documented
+  (product documentation at docs.albertinvent.com is access-gated).'
 url: https://raw.githubusercontent.com/api-evangelist/albertinvent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://cdn.prod.website-files.com/68f0bb999f20ff63f3bd6be0/691dfffb2d271996162cbdb4_Webclip.png
 tags:
 - Company
 - Developer Tools
+- Chemistry
+- Materials Science
+- Research And Development
+- Artificial Intelligence
+- Laboratory Informatics
+- Data Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.albertinvent.com
+- type: Blog
+  url: https://www.albertinvent.com/blog
+- type: About
+  url: https://www.albertinvent.com/learn
+- type: CaseStudies
+  url: https://www.albertinvent.com/case-studies
+- type: Login
+  url: https://app.albertinvent.com/
+- type: TermsOfService
+  url: https://www.albertinvent.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.albertinvent.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.albertinvent.com
+- type: GitHubOrganization
+  url: https://github.com/albert-invent
+- type: LinkedIn
+  url: https://www.linkedin.com/company/albert-invent/
+- type: DomainSecurity
+  url: security/albertinvent-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
